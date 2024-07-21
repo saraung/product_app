@@ -45,3 +45,7 @@
   color: white !important; 
 }
 
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-width: 4px; /* Change to desired border width */
+}

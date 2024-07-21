@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{backgroundColor:"red",margin:5}} >
+      <AppBar position="static" style={{backgroundColor:"black",margin:5}} >
         <Toolbar>
           <Typography variant="h3" component="div" sx={{ flexGrow: 1 }}>
             Products

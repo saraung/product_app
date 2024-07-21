@@ -10,7 +10,7 @@ const AddProduct = () => {
       <input type="file" /><br /><br />
       <TextField variant='outlined' label="Price" /><br /><br />
       <TextField variant='outlined' label="Category" /><br /><br />
-      <Button  variant="contained">Submit</Button>
+      <Button color='success' variant="contained">Submit</Button>
 
 
     </div>
