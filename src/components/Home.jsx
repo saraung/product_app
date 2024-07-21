@@ -1,4 +1,5 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material'
+import { lightGreen } from '@mui/material/colors'
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
@@ -23,7 +24,7 @@ const Home = () => {
         {data?.map((val,i)=>{
             return(
                 <Grid item xs={12} md={3}>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 345 ,backgroundColor: "#9e9996"}}>
                     <CardMedia
                         sx={{ height: 140 }}
                         image={val.image}
